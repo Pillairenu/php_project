@@ -1,0 +1,61 @@
+/*box model fix*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    width: 10%;
+
+}
+
+/* ############ Main Navigation ############ */
+.navWrap-main {
+    /* display: grid;
+    grid-template-columns: .5fr 2fr;
+    justify-items: end;
+    grid-gap: 10px;
+    height: auto;
+    padding: 2em;
+    background: #3cb6d3; */
+    display: flex;
+    background: #3cb6d3;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main-nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+
+}
+
+.main-nav li {
+    position: relative;
+    margin-right: 30px;
+
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.main-nav li a:hover {
+    color: #ce2d2d;
+    background: #e0e5eb;
+    padding: 1em;
+}

@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Comox Valley Realty Navigator</title>
-    <script src="style.css"></script>
-    
+    <link rel="stylesheet" type="text/css" href="style.css">    
 </head>
 <body >
 

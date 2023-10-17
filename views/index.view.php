@@ -3,11 +3,10 @@
 
 <?php require('partials/nav.php');?>
 
-
   <main>
     <div >
       
-      <p> Hello.Welcome to the home page. </p>
+      <p>  </p>
     </div>
   </main>
   
