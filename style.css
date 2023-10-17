@@ -58,6 +58,35 @@ body {
     color: #ce2d2d;
     background: #e0e5eb;
     padding: 1em;
+    border: 1px solid #3cb6d3;
+
+}
+
+/* Style for the dropdown menu */
+
+.drpmenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #212f54;
+    border: 1px solid #3cb6d3;
+}
+
+.drpmenu a {
+    float: none;
+    display: block;
+
+}
+
+.drpmenu a:hover {
+
+    color: #212f54;
+}
+
+
+.drpbtn:focus+.drpmenu {
+    display: block;
 }
 
 /* #########  Footer ######### */
