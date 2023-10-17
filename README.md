@@ -1,2 +1,2 @@
-# php_project
-Semester Project
+# PHP SEMESTER PROJECT
+
