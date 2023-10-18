@@ -12,7 +12,8 @@ $routes=[
     '/rooms'=>'controllers/rooms.php',
     '/house'=>'controllers/house.php',
     '/apartment'=>'controllers/apartment.php',
-    '/room-details'=>'controllers/room-details.php'
+    '/room-details'=>'controllers/room-details.php',
+    '/favorite'=>'controllers/favorite.php'
 
 
 ];

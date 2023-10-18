@@ -12,7 +12,9 @@
               <a href="/house">House</a>
               <a href="/apartment'">Apartment</a>
             </div>
-        <li><a href="contact.php">Contact Us</a></li>
+        <li><a href="/favorite">Favorites</a></li>
+        <li><a href="/favorite">Bookings</a></li>
+        <li><a href="/favorite">Add new property</a></li>
         
         <li><a href="/signin">Login</a></li>
       </ul>
