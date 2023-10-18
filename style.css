@@ -154,3 +154,55 @@ footer {
 .hero-text p {
     font-size: 1.25rem;
 }
+
+/*-----------Index Content------------*/
+.main-container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5em;
+    line-height: 2;
+    display: grid;
+}
+
+
+.introductory-content h2 {
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    color: #212f54;
+    margin-top: 10px;
+}
+
+/* Style for the article container */
+.article-container {
+    display: flex;
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+/* Style for the image */
+.image {
+    flex: 1;
+    padding: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the content */
+.content {
+    flex: 1;
+    padding: 1em;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #212f54;
+}
