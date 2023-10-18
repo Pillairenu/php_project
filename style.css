@@ -102,8 +102,8 @@ footer {
     padding: 2em;
     background: rgb(158, 163, 199);
     line-height: 2.5em;
-    font-family: 'Roboto', sans-serif;
-
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 1.1em;
 }
 
 .contactInfo ul {
