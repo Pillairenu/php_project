@@ -7,14 +7,14 @@
   
     <div class="main-container">
     <div class="container">
-        <form class="signin-form" action="signin.php" method="post">
+        <form class="signin-form" action="/" method="post">
             <h2>Sign In</h2>
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
             <button type="submit">Sign In</button>
-            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            <p>Don't have an account? <a href="/signup">Sign Up</a></p>
         </form>
     </div>
     </div>
