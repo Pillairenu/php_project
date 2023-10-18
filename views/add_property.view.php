@@ -46,8 +46,8 @@
                 <label for="image">Upload Image:</label>
                 <input type="file" id="image" name="image" accept="image/*">
             </div>
-            <div class="form-group">
-                <button type="submit">Submit</button>
+            <div class="content">
+                    <a href="/rooms" class="details-button">Submit</a>
             </div>
         </form>
     </div>

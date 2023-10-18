@@ -19,7 +19,7 @@
                 <img src="images/room-2.jpg" alt="Image">
                 </div>
                 <div class="content">
-                    <a href="/room-details" class="details-button">Book Viewing</a>
+                    <a href="/bookings" class="details-button">Book Viewing</a>
                 </div>
                 <div class="content">
                     <a href="/room-details" class="details-button">Remove favorite</a>
@@ -33,7 +33,7 @@
                 <img src="images/room-3.jpg" alt="Image">
                 </div>
                 <div class="content">
-                    <a href="/room-details" class="details-button">Bookr Viewing</a>
+                    <a href="/bookings" class="details-button">Book Viewing</a>
                 </div>
                 <div class="content">
                     <a href="/room-details" class="details-button">Remove favorite</a>
@@ -47,7 +47,7 @@
                 <img src="images/room-3.jpg" alt="Image">
                 </div>
                 <div class="content">
-                    <a href="/room-details" class="details-button">Book Viewing</a>
+                    <a href="/bookings" class="details-button">Book Viewing</a>
                 </div>
                 <div class="content">
                     <a href="/room-details" class="details-button">Remove favorite</a>
