@@ -71,6 +71,7 @@ body {
     left: 0;
     background: #212f54;
     border: 1px solid #3cb6d3;
+    z-index: 1;
 }
 
 .drpmenu a {
@@ -119,4 +120,37 @@ footer {
 .socialIcons a {
     color: #932626;
     margin-right: 10px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.hero-banner {
+    position: relative;
+    width: 100%;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+
+}
+
+.hero-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #212f54;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.25rem;
 }
