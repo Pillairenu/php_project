@@ -44,6 +44,7 @@
                     <a href="/room-details" class="details-button">View Details</a>
                 </div>
             </article>
+            
           
     </div>
     </div>
