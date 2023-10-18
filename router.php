@@ -9,6 +9,10 @@ $routes=[
     '/'=>'controllers/index.php',
     '/signin'=>'controllers/signin.php',
     '/signup'=>'controllers/signup.php',
+    '/rooms'=>'controllers/rooms.php',
+    '/house'=>'controllers/house.php',
+    '/apartment'=>'controllers/apartment.php',
+    '/room-details'=>'controllers/room-details.php'
 
 
 ];

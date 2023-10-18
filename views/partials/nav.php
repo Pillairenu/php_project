@@ -8,9 +8,9 @@
         <li class="dropdown">
           <a href="#" class="drpbtn">Services <i class="fa fa-caret-down"></i></a>
             <div class="drpmenu">
-              <a href="room.php">Room</a>
-              <a href="house.php">House</a>
-              <a href="apartments.php">Apartment</a>
+              <a href="/rooms">Room</a>
+              <a href="/house">House</a>
+              <a href="/apartment'">Apartment</a>
             </div>
         <li><a href="contact.php">Contact Us</a></li>
         
