@@ -1,2 +1,6 @@
 # PHP SEMESTER PROJECT
 
+## PROJECT CONCEPT
+“Comox Valley Realty Navigator” is a comprehensive online platform designed to serve as the ultimate guide for property seekers and property management professionals in the Comox Valley region of British Columbia, Canada. This innovative system empowers users to effortlessly navigate the local real estate landscape, whether they are looking to find their dream home, rent a commercial space, or manage property listings with ease.
+This comprehensive real estate solution allows users to explore a wide range of property listings, including apartments, independent houses, shops, plots, and commercial land, both for rent and purchase. They can view the listings, save their favorite listings for later reference, and even book viewings.
+Property management professionals can easily manage their property listings through intuitive tools that enable them to add, edit, and delete listings, ensuring that their offerings are always up-to-date and reflective of the dynamic Comox Valley real estate market. Whether you are a property seeker or a property manager, Comox Valley Realty Navigator is your go-to platform for a seamless and efficient real estate experience.
