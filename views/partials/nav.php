@@ -10,7 +10,7 @@
             <div class="drpmenu">
               <a href="/rooms">Room</a>
               <a href="/house">House</a>
-              <a href="/apartment'">Apartment</a>
+              <a href="/apartment">Apartment</a>
             </div>
         <li><a href="/favorite">Favorites</a></li>
         <li><a href="/favorite">Bookings</a></li>
