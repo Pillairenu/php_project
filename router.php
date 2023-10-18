@@ -14,7 +14,8 @@ $routes=[
     '/apartment'=>'controllers/apartment.php',
     '/room-details'=>'controllers/room-details.php',
     '/favorite'=>'controllers/favorite.php',
-    '/property'=>'controllers/add_property.php'
+    '/property'=>'controllers/add_property.php',
+    '/bookings'=>'controllers/view_bookings.php'
 
 
 ];

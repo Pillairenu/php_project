@@ -13,7 +13,7 @@
               <a href="/apartment">Apartment</a>
             </div>
         <li><a href="/favorite">Favorites</a></li>
-        <li><a href="/favorite">Bookings</a></li>
+        <li><a href="/bookings">Bookings</a></li>
         <li><a href="/property">Add new property</a></li>
         
         <li><a href="/signin">Login</a></li>
