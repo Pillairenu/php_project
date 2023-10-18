@@ -367,3 +367,33 @@ input[type="password"] {
 .favorite-container img {
     max-width: 100%;
 }
+
+/*----------Add New Property------- */
+
+.form-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+.form-container h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #212f54;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

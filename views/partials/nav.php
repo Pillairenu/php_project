@@ -14,7 +14,7 @@
             </div>
         <li><a href="/favorite">Favorites</a></li>
         <li><a href="/favorite">Bookings</a></li>
-        <li><a href="/favorite">Add new property</a></li>
+        <li><a href="/property">Add new property</a></li>
         
         <li><a href="/signin">Login</a></li>
       </ul>

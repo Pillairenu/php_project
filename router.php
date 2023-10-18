@@ -13,7 +13,8 @@ $routes=[
     '/house'=>'controllers/house.php',
     '/apartment'=>'controllers/apartment.php',
     '/room-details'=>'controllers/room-details.php',
-    '/favorite'=>'controllers/favorite.php'
+    '/favorite'=>'controllers/favorite.php',
+    '/property'=>'controllers/add_property.php'
 
 
 ];
