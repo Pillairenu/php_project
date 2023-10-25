@@ -43,8 +43,8 @@ ChatGPT Suggestions
    4. Mobile Responsiveness:
 
         Consider how the view displays on different devices and screen sizes. Ensure that it's mobile-responsive and user-friendly.
-        
-         My response:I might implement it since I didn't have a default "Select" or "Choose" option.
+
+         My response:I'm planning to implement it is one of the most important part of an app to view it in different screen.
     
     3. Crtique from Students
 
