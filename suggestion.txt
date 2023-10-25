@@ -1,0 +1,12 @@
+ChatGPT Suggestions
+
+1.Use Constants for Route Paths:Instead of using hardcoded strings as route paths,
+  consider defining constants for these paths. This can make your code more maintainable and help prevent typos.
+  eg: define('ROOT', '/');
+      define('SIGNIN', '/signin');
+
+      $routes = [
+        ROOT => 'controllers/index.php',
+        SIGNIN => 'controllers/signin.php',
+        // Define other routes here
+    ];
