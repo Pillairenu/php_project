@@ -10,3 +10,17 @@ ChatGPT Suggestions
         SIGNIN => 'controllers/signin.php',
         // Define other routes here
     ];
+
+    My response:I would like to implement it.
+
+ 2. In add property.view: 
+
+        Labels and Input Fields:
+
+        Consider using the for attribute in your <label> tags to associate them with the corresponding input fields using the id attribute. This improves accessibility and allows users to click on the label to focus on the input field.
+        html
+    
+        <label for="unit-number">Unit Number:</label>
+        <input type="text" id="unit-number" name="unit-number" required>
+
+        My response:I have already implemented it in my code. 
