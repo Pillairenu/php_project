@@ -13,6 +13,8 @@ ChatGPT Suggestions
 
     My response:I would like to implement it.
 
+    I did this during the lab time.It's done and working.
+
  2. In add property.view: 
 
         Labels and Input Fields:
@@ -60,6 +62,9 @@ ChatGPT Suggestions
 
     5. To provide the user with the option to choose between "customer" and "real estate agent" during the signup process.
         My Response: It's important since the customer and the agent have unique functionalities.
+
+        I did this during the lab time.It's done and working.
+        
     6. Crtique from Students
 
         Student notes: Improve code documentation, organization, and commit
