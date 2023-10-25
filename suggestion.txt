@@ -77,3 +77,6 @@ ChatGPT Suggestions
         responsiveness, which is missing in this milestone.
         Add a filter to the apartment
         for filtering listings you could have an attribute section in the database for bedrooms, cost, etc and then make that searchable
+
+
+        Lab self-evaluation: 4/4. Done two suggestions by ChatGPT

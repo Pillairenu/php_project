@@ -1,5 +1,5 @@
 <?php
-
+// Defining Constants
 define('ROOT', '/');
 define('SIGNIN', '/signin');
 define('SIGNUP', '/signup');
