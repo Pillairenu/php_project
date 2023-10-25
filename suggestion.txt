@@ -24,3 +24,18 @@ ChatGPT Suggestions
         <input type="text" id="unit-number" name="unit-number" required>
 
         My response:I have already implemented it in my code. 
+
+
+        Select Options:
+
+        Ensure that your <select> elements have a default "Select" or "Choose" option with a disabled attribute to prompt users to make a selection. This can help prevent accidental submissions.
+        html
+        Copy code
+        <select id="property-type" name="property-type" required>
+            <option value="" disabled selected>Select Property Type</option>
+            <option value="room">Room</option>
+            <option value="apartment">Apartment</option>
+            <option value="house">House</option>
+        </select>
+
+         My response:I might implement it since I didn't have a default "Select" or "Choose" option.
