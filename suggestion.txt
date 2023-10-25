@@ -39,3 +39,17 @@ ChatGPT Suggestions
         </select>
 
          My response:I might implement it since I didn't have a default "Select" or "Choose" option.
+
+    
+    3. Crtique from Students
+
+        Student notes: Improve code documentation, organization, and commit
+        frequency while adding advanced filtering options for better user experience and future
+        development.
+        The design of the site looks so clean and precisely
+        designed. Clearly represent the goal of the site. the
+        things she needs to work on commits, and she needs to
+        understand why it is essential. Also, she needs to work on
+        responsiveness, which is missing in this milestone.
+        Add a filter to the apartment
+        for filtering listings you could have an attribute section in the database for bedrooms, cost, etc and then make that searchable
