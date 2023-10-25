@@ -3,7 +3,7 @@
 $uri =parse_url($_SERVER['REQUEST_URI'])['path'];
 
 // Use Constants for Route Paths
-// require 'constants.php';
+require 'constants.php';
 
 $routes=[
 
