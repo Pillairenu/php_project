@@ -40,6 +40,11 @@ ChatGPT Suggestions
 
          My response:I might implement it since I didn't have a default "Select" or "Choose" option.
 
+   4. Mobile Responsiveness:
+
+        Consider how the view displays on different devices and screen sizes. Ensure that it's mobile-responsive and user-friendly.
+        
+         My response:I might implement it since I didn't have a default "Select" or "Choose" option.
     
     3. Crtique from Students
 
