@@ -40,7 +40,7 @@ ChatGPT Suggestions
 
          My response:I might implement it since I didn't have a default "Select" or "Choose" option.
 
-   3. Mobile Responsiveness:
+    3. Mobile Responsiveness:
 
         Consider how the view displays on different devices and screen sizes. Ensure that it's mobile-responsive and user-friendly.
 
@@ -58,8 +58,9 @@ ChatGPT Suggestions
 
         My response:I'm going to establish a database connection and dynamically populate data.
 
-    
-    . Crtique from Students
+    5. To provide the user with the option to choose between "customer" and "real estate agent" during the signup process.
+        My Response: It's important since the customer and the agent have unique functionalities.
+    6. Crtique from Students
 
         Student notes: Improve code documentation, organization, and commit
         frequency while adding advanced filtering options for better user experience and future
