@@ -9,6 +9,9 @@
     <div class="container">
         <form class="signup-form" action="/signin" method="post">
             <h2>Sign Up</h2>
+            <!-- Name Field -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
              
