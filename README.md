@@ -33,3 +33,32 @@ Here's an overview of the processing required for the key tasks in this project:
 
 - Securely storing the newly added property listing in the database.
 
+
+4.View All Listed Items (Admin):
+
+- Processing encompasses retrieving and displaying a comprehensive list of all property listings.
+
+- Querying the database to fetch and organize property listing data.
+
+- Presenting the property listings in an accessible format for admin review.
+5. Edit Listing (Admin):
+
+- Processing involves modifying and updating property listing details.
+
+- Validating the edited information for accuracy and adherence to data standards.
+
+- Updating the corresponding property listing in the database with the edited details.
+
+6. Delete Listing (Admin):
+
+- Processing includes managing admin requests to delete property listings.
+
+- Identifying and confirming the property to be deleted.
+
+- Removing the property listing from the database to maintain data integrity.
+7. View User Bookings (Admin):
+
+- Processing encompasses retrieving and presenting user booking data for property viewings.
+
+- Querying the database to obtain booking information linked to specific properties.
+
