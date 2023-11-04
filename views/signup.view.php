@@ -7,7 +7,7 @@
   
     <div class="main-container">
     <div class="container">
-        <form class="signup-form" action="/signin" method="post">
+        <form class="signup-form" action="/model/signup.model.php" method="post">
             <h2>Sign Up</h2>
             <!-- Name Field -->
             <label for="name">Full Name:</label>
@@ -19,7 +19,7 @@
                 <label for="user-type">User Type:</label>
                 <select id="user-type" name="user-type" required>
                     <option value="customer" selected>Property Seeker</option>
-                    <option value="real-estate-agent">Real Estate Agent</option>
+                    <option value="agent">Real Estate Agent</option>
                 </select>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
