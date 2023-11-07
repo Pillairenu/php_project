@@ -30,7 +30,8 @@ $routes=[
     '/room-details'=>'controllers/room-details.php',
     '/favorite'=>'controllers/favorite.php',
     '/property'=>'controllers/add_property.php',
-    '/bookings'=>'controllers/view_bookings.php'
+    '/bookings'=>'controllers/view_bookings.php',
+    '/logout'=>'controllers/logout.php'
 
 
 ];

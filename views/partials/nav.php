@@ -24,20 +24,23 @@
           ?>
                   <li><a href="/favorite">Favorites</a></li>
                   <li><a href="/bookings">My Bookings</a></li>
+                  <li><a href="/logout">Logout</a></li>
                   
           <?php
               } elseif ($_SESSION['user_type'] === 'agent') {
           ?>
                 
                   <li><a href="/property">Add new property</a></li>
+                  <li><a href="/logout">Logout</a></li>
           <?php
               }
-              else{
+              else
+              {
                 ?>
                       
                       <li><a href="/signin">Login</a></li>
                 <?php
-          }
+              }
         }
           ?>
         
