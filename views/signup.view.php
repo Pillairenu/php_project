@@ -9,6 +9,9 @@
     <div class="container">
         <form class="signup-form" action="/model/signup.model.php" method="post">
             <h2>Sign Up</h2>
+            <div id="error-message" class="error-message" style="display: none;"></div>
+         
+     
             <!-- Name Field -->
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name" required>
@@ -30,6 +33,14 @@
             <button type="submit">Sign Up</button>
             <p>Already have an account? <a href="/signin">Sign In</a></p>
         </form>
+          <!-- Success message placed at the bottom of the form -->
+      <!-- Custom success message popup -->
+      <div id="success-popup" class="popup" style="display: none;">
+        <div class="popup-content">
+          <span class="close-popup" onclick="closeSuccessPopup()">&times;</span>
+          <p id="success-message-text">This is a success message.</p>
+        </div>
+      </div>
     </div>
     </div>
 
