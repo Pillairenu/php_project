@@ -7,7 +7,7 @@
   
     <div class="main-container">
     <div class="container">
-        <form class="signin-form" action="/" method="post">
+        <form class="signin-form" action="/model/signin.model.php" method="post">
             <h2>Sign In</h2>
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
