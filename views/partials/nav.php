@@ -15,36 +15,29 @@
           
 
             <?php
-
-         
-          // Check if the user is logged in
-          if (isset($_SESSION['user_id'])) {
-              // User is logged in, so check user_type to determine the menu
-              if ($_SESSION['user_type'] === 'customer') {
-          ?>
-                  <li><a href="/favorite">Favorites</a></li>
-                  <li><a href="/bookings">My Bookings</a></li>
-                  <li><a href="/logout">Logout</a></li>
-                  
-          <?php
-              } elseif ($_SESSION['user_type'] === 'agent') {
-          ?>
-                
-                  <li><a href="/property">Add new property</a></li>
-                  <li><a href="/logout">Logout</a></li>
-          <?php
-              }
-              else
-              {
-                ?>
-                      
-                      <li><a href="/signin">Login</a></li>
-                <?php
-              }
+      // Check if the user is logged in
+      if (isset($_SESSION['user_id']))
+       {
+        // User is logged in, so check user_type to determine the menu
+        if ($_SESSION['user_type'] === 'customer') 
+        {
+          echo '<li><a href="/favorite">Favorites</a></li>';
+          echo '<li><a href="/bookings">My Bookings</a></li>';
+        } 
+        
+        elseif ($_SESSION['user_type'] === 'agent')
+        {
+          echo '<li><a href="/property">Add new property</a></li>';
         }
-          ?>
-        
-        
+        echo '<li><a href="/logout">Logout</a></li>';
+      }
+      
+      else
+      {
+        // User is not logged in
+        echo '<li><a href="/signin">Login</a></li>';
+      }
+      ?>
        
       </ul>
     </nav>
