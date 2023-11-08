@@ -3,9 +3,16 @@
 
 <?php require('partials/nav.php');?>
 
+<?php require('model/room.model.php'); ?>
+
+
+<?php $roomModel = new RoomModel($pdo);
+
+// Use the RoomModel to retrieve room details
+$rooms = $roomModel->getRoomDetails(); ?>
+
   <main>
    
-    
     <div class="main-container">
       <div class="rooms-container">
         <h1> Discover Your Ideal Room</h1>
@@ -44,6 +51,19 @@
                     <a href="/room-details" class="details-button">View Details</a>
                 </div>
             </article>
+
+            <?php foreach ($rooms as $room) { ?>
+                <article class="article-container">
+                    <div class="image">
+                    <img src="images/<?php echo $room['image']; ?>" alt="Image">
+                    </div>
+                    <div class="content">
+                        <h2><?php echo "Room available in ". $room['street']; ?></h2>
+                        <p><?php echo "A new room available on " . $room['street'] . " in the vibrant town of Comox. " . $room['features']; ?></p>
+                        <a href="/room-details" class="details-button">View Details</a>
+                    </div>
+                </article>
+            <?php } ?>
             
           
     </div>
