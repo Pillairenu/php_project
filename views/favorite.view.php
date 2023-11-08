@@ -2,20 +2,7 @@
 
 
 <?php require('partials/nav.php');?>
-<?php
-require('model/favorite.model.php');
 
-// Create a new instance of the FavoriteModel
-$favoriteModel = new FavoriteModel($pdo);
-
-// Assuming you have $userId and $propertyId defined
-$userId = $_SESSION['user_id']; // Retrieve the user's ID from the session
-$propertyId = $_GET['room_id']; // Retrieve the property's ID from the URL or elsewhere
-
-// Add the property to the user's favorites
-$favoriteModel->addToFavorites($userId, $propertyId);
-
-?>
 
   <main>
    

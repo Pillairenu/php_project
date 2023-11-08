@@ -74,8 +74,8 @@ $roomDetailsModel = new RoomDetailsModel($pdo);
                       if ($_SESSION['user_type'] === 'customer') 
                       {
 
-                        echo '<a href="/favorite?room_id=' . $room['id'] . '" class="favorite-button">Add to Favorite</a>';
-                      }
+                        echo '<a href="model/add_favorite.model.php?room_id=' . $room['id'] . '" class="favorite-button">Add to Favorite</a>';
+                    }
                     }
                     ?>
                 </div>
