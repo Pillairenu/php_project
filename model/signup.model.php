@@ -5,14 +5,7 @@ require_once('../Database.php');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') 
 
 {
-            $name = $_POST['name'];
-            $username = $_POST['username'];
-            $userType = $_POST['user-type'];
-            $email = $_POST['email'];
-            $password = $_POST['password'];
-            
-        
-            
+    
             
             $name = $_POST['name'];
             $username = $_POST['username'];

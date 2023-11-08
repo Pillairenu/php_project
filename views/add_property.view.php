@@ -9,7 +9,7 @@
     <div class="container">
     <div class="form-container">
         <h1>Add New Property</h1>
-        <form action="#" method="POST" action="/" enctype="multipart/form-data">
+        <form action="/model/add_property.model.php" method="POST" enctype="multipart/form-data" >
             <div class="form-group">
                 <label for="unit-number">Unit Number:</label>
                 <input type="text" id="unit-number" name="unit-number" required>
@@ -46,9 +46,9 @@
                 <label for="image">Upload Image:</label>
                 <input type="file" id="image" name="image" accept="image/*">
             </div>
-            <div class="content">
-                    <a href="/rooms" class="details-button">Submit</a>
-            </div>
+            
+                    <button type="submit" class="details-button">Submit</button>
+            
         </form>
     </div>
 </div>

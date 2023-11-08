@@ -9,7 +9,7 @@ $_SESSION = array();
 session_destroy();
 
 // Redirect the user to the login page or any other desired page
-header("Location: /signin"); // Change this to the appropriate URL
+header("Location: /"); // Change this to the appropriate URL
 
 // Ensure no more code is executed after the header redirect
 exit();
