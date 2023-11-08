@@ -27,12 +27,66 @@ $roomDetailsModel = new RoomDetailsModel($pdo);
                 
                 ?>
            
-           <h1>Room available in 15th Street, Courtenay</h1>
+           <h1>Room available in <?php echo $room['street']; ?>, Comox Valley</h1>
+           <article class="article-container">
+               
+               <div class="content">
+                   <h2>Address:</h2>
+                   <ul>
+                       <li>Unit No:<?php echo $room['unit_number'];?></li>
+                       <li>Street:<?php echo $room['street'];?></li>
+                       <li>City:Courtenay BC</li>
+                       
+
+                   </ul>
            
+                   <h2>Key Features:</h2>
+                    <ul>
+                        <li><?php echo $room['features'];?></li>
+                        
+
+                    </ul>
            
-           
-           
-           
+                    <h2>Additional Information:</h2>
+                    <ul>
+                   
+                        <li><?php echo $room['additional_info'];?></li>
+                        
+
+                    </ul>
+                  
+                    <h2>Contact Details:</h2>
+                    <ul>
+                        <li>Agent name:Lee Copper</li>
+                        <li>Contact no:250-788-9999</li>
+                        
+                    </ul>
+                    
+                    
+                </div>
+                <div class="image">
+                <img src="images/<?php echo $room['image']; ?>" alt="Image">
+
+                <?php
+                     if (isset($_SESSION['user_id']))
+                     {
+                      // User is logged in, so check user_type to determine the menu
+                      if ($_SESSION['user_type'] === 'customer') 
+                      {
+
+                        echo '<a href="/favorite" class="favorite-button">Add to Favorite</a>';
+                      }
+                    }
+                    ?>
+                </div>
+
+                
+            </article>
+
+
+
+
+
            
         <?php }
         
@@ -41,7 +95,7 @@ $roomDetailsModel = new RoomDetailsModel($pdo);
                 
         ?>
 
-            <h1>Room available in 15th Street, Courtenay</h1>
+            <h1>Room available in Comox Valley</h1>
             <article class="article-container">
                
                 <div class="content">
