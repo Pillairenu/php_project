@@ -100,7 +100,8 @@ $favorites = $favoriteModel->getFavoritesByUserId($userId);
                     <?php    echo '<a href="model/add_bookings.model.php?room_id=' . $favorite['id'] . '" class="details-button">Book Viewing</a>'; ?>
                         </div>
                         <div class="content">
-                            <a href="/room-details" class="details-button">Remove favorite</a>
+                            <?php  echo '<a href="model/remove_favorite.model.php?room_id=' . $favorite['id'] . '" class="details-button">Remove favorite</a>'; ?>
+
                         </div>
                     </article>
 
