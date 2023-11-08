@@ -2,7 +2,19 @@
 
 
 <?php require('partials/nav.php');?>
+<?php
+// Include the FavoriteModel class (adjust the path as needed)
+require('model/favorite.model.php');
 
+// Create an instance of the FavoriteModel class, passing the PDO connection
+$favoriteModel = new FavoriteModel($pdo);
+
+// Retrieve the user's session ID
+$userId = $_SESSION['user_id'];
+
+// Get the user's favorite properties using the model
+$favorites = $favoriteModel->getFavoritesByUserId($userId);
+?>
 
   <main>
    
@@ -69,6 +81,35 @@
                     <a href="/room-details" class="details-button">Remove favorite</a>
                 </div>
             </article>
+
+            <?php
+            if ($userId) 
+            {
+            
+                 foreach ($favorites as $favorite) { 
+                ?>
+                    <article class="favorite-container">
+                        <div class="details">
+                            <p>Room available in  <?php echo $favorite['street'];?>, Comox</p>
+                        </div>
+                        <div class="image">
+                            
+                            <img src="images/<?php echo $favorite['image']; ?>" alt="Image">
+                        </div>
+                        <div class="content">
+                            <a href="/room-details" class="details-button">Book Viewing</a>
+                        </div>
+                        <div class="content">
+                            <a href="/room-details" class="details-button">Remove favorite</a>
+                        </div>
+                    </article>
+
+
+
+                <?php
+                }
+            }
+                ?>
            
             </div>
     </div>
