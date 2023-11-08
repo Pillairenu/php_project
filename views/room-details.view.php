@@ -3,12 +3,45 @@
 
 <?php require('partials/nav.php');?>
 
+<?php require('model/room-details.model.php'); ?>
+
+<?php 
+// Create a new instance of the RoomDetailsModel
+$roomDetailsModel = new RoomDetailsModel($pdo);
+
+// Get the room ID from the URL query parameter
+ $room_id = isset($_GET['room_id']) ? $_GET['room_id'] : null;
+?>
+
   <main>
    
     
     <div class="main-container">
       <div class="rooms-container">
-        <h1>Room available in 15th Street, Courtenay</h1>
+        
+
+        <?php
+            if ($room_id) {
+                $room = $roomDetailsModel->getRoomDetailsById($room_id);
+ 
+                
+                ?>
+           
+           <h1>Room available in 15th Street, Courtenay</h1>
+           
+           
+           
+           
+           
+           
+        <?php }
+        
+           
+            else{
+                
+        ?>
+
+            <h1>Room available in 15th Street, Courtenay</h1>
             <article class="article-container">
                
                 <div class="content">
@@ -56,9 +89,11 @@
                     <img src="images/room-1.jpeg" alt="Image">
                     <a href="/favorite" class="favorite-button">Add to Favorite</a>
                 </div>
+
+                
             </article>
 
-          
+           <?php } ?>
     </div>
     </div>
 

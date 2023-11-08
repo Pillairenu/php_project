@@ -60,7 +60,7 @@ $rooms = $roomModel->getRoomDetails(); ?>
                     <div class="content">
                         <h2><?php echo "Room available in ". $room['street']; ?></h2>
                         <p><?php echo "A new room available on " . $room['street'] . " in the vibrant town of Comox. " . $room['features']; ?></p>
-                        <a href="/room-details" class="details-button">View Details</a>
+                        <a href="/room-details?room_id=<?php echo $room['id']; ?>" class="details-button">View Details</a>
                     </div>
                 </article>
             <?php } ?>
