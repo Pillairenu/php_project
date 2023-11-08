@@ -11,7 +11,7 @@ class FavoriteModel
 
     public function getFavoritesByUserId($userId)
     {
-        $query = "SELECT properties.street, properties.image
+        $query = "SELECT favorites.property_id as id,properties.street, properties.image
         FROM favorites
         INNER JOIN properties ON favorites.property_id = properties.id
         WHERE favorites.user_id = :user_id";

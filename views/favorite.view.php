@@ -75,7 +75,7 @@ $favorites = $favoriteModel->getFavoritesByUserId($userId);
                     <img src="images/room-1.jpeg" alt="Image">
                 </div>
                 <div class="content">
-                    <a href="/room-details" class="details-button">Book Viewing</a>
+                    <a href="/bookings" class="details-button">Book Viewing</a>
                 </div>
                 <div class="content">
                     <a href="/room-details" class="details-button">Remove favorite</a>
@@ -97,7 +97,7 @@ $favorites = $favoriteModel->getFavoritesByUserId($userId);
                             <img src="images/<?php echo $favorite['image']; ?>" alt="Image">
                         </div>
                         <div class="content">
-                            <a href="/room-details" class="details-button">Book Viewing</a>
+                    <?php    echo '<a href="model/add_bookings.model.php?room_id=' . $favorite['id'] . '" class="details-button">Book Viewing</a>'; ?>
                         </div>
                         <div class="content">
                             <a href="/room-details" class="details-button">Remove favorite</a>
