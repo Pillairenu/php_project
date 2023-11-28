@@ -13,31 +13,33 @@ body {
 }
 
 .logo {
-    width: 10%;
+    width: 12%;
 
 }
 
 /* ############ Main Navigation ############ */
 .navWrap-main {
-    /* display: grid;
-    grid-template-columns: .5fr 2fr;
-    justify-items: end;
-    grid-gap: 10px;
-    height: auto;
-    padding: 2em;
-    background: #3cb6d3; */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     display: flex;
     background: #212f54;
     align-items: center;
     justify-content: space-around;
-
+    height: 20vh;
+    width: 100%
 }
 
 .main-nav ul {
+
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
+    justify-content: flex-end;
     flex-wrap: nowrap;
-    position: relative;
 
 }
 
@@ -51,14 +53,13 @@ body {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: bold;
-    padding: 1em;
-    font-size: 1.1em;
+    padding: 1.2em;
+    font-size: 1.2em;
 }
 
 .main-nav li a:hover {
     color: #ce2d2d;
     background: #e0e5eb;
-    padding: 1em;
     border: 1px solid #3cb6d3;
 
 }
@@ -90,9 +91,6 @@ li.dropdown:hover .drpmenu {
     display: block;
 }
 
-/* .drpbtn:focus+.drpmenu {
-    display: block;
-} */
 
 /* Display the submenu when hovering over the parent element */
 .drpbtn:hover+.drpmenu {
