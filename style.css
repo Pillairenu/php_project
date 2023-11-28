@@ -121,8 +121,13 @@ footer {
     background: rgb(158, 163, 199);
     line-height: 2.5em;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.1em;
     color: #212f54;
+
+}
+
+.contactInfo h4 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
 }
 
 .contactInfo ul {
@@ -166,6 +171,19 @@ footer {
     color: #0A66C2;
 
 }
+
+.copyright {
+
+    background-color: #212f54;
+    color: #fff;
+    padding: 10px;
+}
+
+.copyright p {
+    font-size: smaller;
+}
+
+/* #########  Hero Image ######### */
 
 .banner img {
     width: 100%;

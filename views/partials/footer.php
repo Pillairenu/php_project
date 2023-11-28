@@ -12,7 +12,7 @@
           <li>Email: info@cvrn.com</li>
           <li>Address: 1015, Cumberland Road, Courtenay</li>
         </ul>
-        <p class="copyright">CVRN &copy;2023</p>
+        
       </article>
     </section>
 
@@ -30,6 +30,10 @@
         </div>
       </article>
     </section>
+   
   </footer>
+  <div class="copyright">
+        <p>CVRN &copy;2023. All rights reserved.</p>
+    </div>
 </body>
 </html>
