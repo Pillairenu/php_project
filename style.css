@@ -131,8 +131,34 @@ footer {
 }
 
 .socialIcons a {
-    color: #932626;
+    /* color: #932626; */
     margin-right: 10px;
+}
+
+.socialIcons a i.fab.fa-instagram {
+    color: #833AB4;
+
+}
+
+.socialIcons a i.fab.fa-youtube {
+    color: #ff0000;
+
+}
+
+.socialIcons a i.fab.fa-facebook-f {
+    color: #3b5998;
+
+}
+
+/* Twitter */
+.socialIcons a i.fab.fa-twitter {
+    color: #1DA1F2;
+
+}
+
+.socialIcons a i.fab.fa-linkedin-in {
+    color: #0A66C2;
+
 }
 
 .banner img {
