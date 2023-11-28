@@ -6,7 +6,7 @@
       <ul>
         <li><a href="/">Home</a></li>
         <li class="dropdown">
-          <a href="#" class="drpbtn">Services <i class="fa fa-caret-down"></i></a>
+          <a href="#" class="drpbtn">Listings <i class="fa fa-caret-down"></i></a>
             <div class="drpmenu">
               <a href="/rooms">Room</a>
               <a href="/house">House</a>
