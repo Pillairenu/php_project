@@ -15,7 +15,7 @@
         <div class="hero-text">
             <h1>Welcome to Comox Valley Realty Navigator</h1>
             <p>We find the best home for you. </p>
-            <a href="/listings" class="button">Learn More</a>
+            <a href="/listings" class="button">Learn more</a>
 
             
         </div>
