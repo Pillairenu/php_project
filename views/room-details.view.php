@@ -65,7 +65,13 @@ $roomDetailsModel = new RoomDetailsModel($pdo);
                     
                 </div>
                 <div class="image">
-                <img src="images/<?php echo $room['image']; ?>" alt="Image">
+                    <?php if (!empty($room['image'])) { ?>
+                        <img src="images/<?php echo $room['image']; ?>" alt="Room Image">
+                    <?php } else { ?>
+                        <!-- Add  default image path here -->
+                        <img src="images/no-image.png" alt="Default Room Image">
+                    <?php } ?>
+                
 
                 <?php
                      if (isset($_SESSION['user_id']))

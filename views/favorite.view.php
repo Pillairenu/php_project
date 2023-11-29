@@ -93,8 +93,13 @@ $favorites = $favoriteModel->getFavoritesByUserId($userId);
                             <p>Room available in  <?php echo $favorite['street'];?>, Comox</p>
                         </div>
                         <div class="image">
-                            
-                            <img src="images/<?php echo $favorite['image']; ?>" alt="Image">
+                    <?php if (!empty($favorite['image'])) { ?>
+                        <img src="images/<?php echo $favorite['image']; ?>" alt="Room Image">
+                    <?php } else { ?>
+                        <!-- Add  default image path here -->
+                        <img src="images/no-image.png" alt="Default Room Image">
+                    <?php } ?>
+                
                         </div>
                         <div class="content">
                     <?php    echo '<a href="model/add_bookings.model.php?room_id=' . $favorite['id'] . '" class="details-button">Book Viewing</a>'; ?>
