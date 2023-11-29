@@ -27,9 +27,5 @@ class ManagePropertyModel
     }
 }
 
-// Usage:
-// Replace $pdo with your database connection
-// Example usage to get properties for a specific user:
-
 
 ?>

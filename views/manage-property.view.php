@@ -39,8 +39,8 @@ $userProperties = $managePropertyModel->getUserProperties();
                             <td>
                               
                                 <a href="/about-us" class="button">Edit</a>
-                                <a href="/about-us" class="button-delete">Delete</a>
-                                
+                                <?php echo '<a href="model/delete_property.model.php?property_id=' . $properties['id'] . '" class="button-delete">Delete</a>';?>
+                
                             </td>
                         </tr>
                     <?php endforeach; ?>
