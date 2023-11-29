@@ -5,6 +5,7 @@
     <nav class="main-nav">
       <ul>
         <li><a href="/">Home</a></li>
+        <li><a href="/about-us">About Us</a></li>
         <li class="dropdown">
           <a href="#" class="drpbtn">Listings <i class="fa fa-caret-down"></i></a>
             <div class="drpmenu">

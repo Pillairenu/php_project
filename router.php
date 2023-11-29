@@ -5,19 +5,6 @@ $uri =parse_url($_SERVER['REQUEST_URI'])['path'];
 // Use Constants for Route Paths
 require 'constants.php';
 
-// $routes=[
-
-//     ROOT =>'controllers/index.php',
-//     SIGNIN =>'controllers/signin.php',
-//     SIGNUP=>'controllers/signup.php',
-//     ROOMS=>'controllers/rooms.php',
-//     HOUSE=>'controllers/house.php',
-//     APT=>'controllers/apartment.php',
-//     DETAILS=>'controllers/room-details.php',
-//     FAV=>'controllers/favorite.php',
-//     PROPERTY=>'controllers/add_property.php',
-//     BOOK=>'controllers/view_bookings.php'
-// ];
 
 $routes=[
 
@@ -31,8 +18,8 @@ $routes=[
     '/favorite'=>'controllers/favorite.php',
     '/property'=>'controllers/add_property.php',
     '/bookings'=>'controllers/view_bookings.php',
-    '/logout'=>'controllers/logout.php'
-
+    '/logout'=>'controllers/logout.php',
+    '/about-us'=>'controllers/about-us.php'
 
 ];
 
