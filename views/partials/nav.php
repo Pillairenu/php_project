@@ -29,6 +29,7 @@
         elseif ($_SESSION['user_type'] === 'agent')
         {
           echo '<li><a href="/property">Add new property</a></li>';
+          echo '<li><a href="/manage-property">Manage property</a></li>';
         }
         echo '<li><a href="/logout">Logout</a></li>';
       }

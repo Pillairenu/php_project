@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 require_once('../Database.php');// Connect to your database (create this file)
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -9,6 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $listingType = $_POST["listing-type"];
     $features = $_POST["features"];
     $additionalInfo = $_POST["additional-info"];
+    $userId = $_SESSION['user_id'];
 
     // Check if an image file was uploaded
     if (isset($_FILES["image"])) {
@@ -26,10 +29,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Insert data into the database
-    $sql = "INSERT INTO properties (unit_number, street, property_type, listing_type, features, additional_info, image)
-            VALUES (?, ?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO properties (unit_number, street, property_type, listing_type, features, additional_info, image,user_id)
+            VALUES (?, ?, ?, ?, ?, ?, ?,?)";
     $stmt = $pdo->prepare($sql);
-    $stmt->execute([$unitNumber, $street, $propertyType, $listingType, $features, $additionalInfo, $image]);
+    $stmt->execute([$unitNumber, $street, $propertyType, $listingType, $features, $additionalInfo, $image, $userId]);
 
     // Redirect to a success page or handle errors
     header("Location: /rooms"); // Redirect to a success page

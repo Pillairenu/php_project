@@ -19,8 +19,8 @@ $routes=[
     '/property'=>'controllers/add_property.php',
     '/bookings'=>'controllers/view_bookings.php',
     '/logout'=>'controllers/logout.php',
-    '/about-us'=>'controllers/about-us.php'
-
+    '/about-us'=>'controllers/about-us.php',
+    '/manage-property'=>'controllers/manage-property.php'
 ];
 
 

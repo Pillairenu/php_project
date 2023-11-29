@@ -3,7 +3,7 @@
 
 <?php require('partials/nav.php');
 
-require('<model/view_bookings.model.php'); // Include the model
+require('model/view_bookings.model.php'); // Include the model
 
 // Create a new instance of the ViewBookingsModel
 $viewBookingsModel = new ViewBookingsModel($pdo);
