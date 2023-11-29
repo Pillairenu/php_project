@@ -20,7 +20,8 @@ $routes=[
     '/bookings'=>'controllers/view_bookings.php',
     '/logout'=>'controllers/logout.php',
     '/about-us'=>'controllers/about-us.php',
-    '/manage-property'=>'controllers/manage-property.php'
+    '/manage-property'=>'controllers/manage-property.php',
+    '/edit-property'=>'controllers/edit-property.php'
 ];
 
 

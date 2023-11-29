@@ -38,7 +38,9 @@ $userProperties = $managePropertyModel->getUserProperties();
                             <td><?php echo $properties['listing_type']; ?></td>
                             <td>
                               
-                                <a href="/about-us" class="button">Edit</a>
+                                
+                                <?php echo '<a href="/edit-property?property_id=' . $properties['id'] . '" class="button">Edit</a>';?>
+
                                 <?php echo '<a href="model/delete_property.model.php?property_id=' . $properties['id'] . '" class="button-delete">Delete</a>';?>
                 
                             </td>
