@@ -54,9 +54,14 @@ $rooms = $roomModel->getRoomDetails(); ?>
 
             <?php foreach ($rooms as $room) { ?>
                 <article class="article-container">
-                    <div class="image">
-                    <img src="images/<?php echo $room['image']; ?>" alt="Image">
-                    </div>
+                <div class="image">
+                    <?php if (!empty($room['image'])) { ?>
+                        <img src="images/<?php echo $room['image']; ?>" alt="Room Image">
+                    <?php } else { ?>
+                        <!-- Add  default image path here -->
+                        <img src="images/no-image.png" alt="Default Room Image">
+                    <?php } ?>
+                </div>
                     <div class="content">
                         <h2><?php echo "Room available in ". $room['street']; ?></h2>
                         <p><?php echo "A new room available on " . $room['street'] . " in the vibrant town of Comox. " . $room['features']; ?></p>
